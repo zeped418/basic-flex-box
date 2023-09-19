@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY FLEX</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; color: whitesmoke;background-color: rgb(1, 0, 30); padding-top: 4rem; padding-bottom: 4rem;">
+        DISPLAY FLEX
+    </h1>
+    <section style="background-color:rgb(1, 0, 50) ;">
+        <h2>Align-items</h2>
+        <div class="row">
+            <div class="concept">
+                <h3>original</h3>
+            </div>
+            <div class="container">
+                <div class="box box_1">
+                    <p>A</p>
+                </div>
+                <div class="box box_2">
+                    <p>B</p>
+                </div>
+                <div class="box box_3">
+                    <p>C</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="concept">
+                <h3>center</h3>
+            </div>
+            <div class="container align-center">
+                <div class="box box_1">
+                    <p>A</p>
+                </div>
+                <div class="box box_2">
+                    <p>B</p>
+                </div>
+                <div class="box box_3">
+                    <p>C</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="concept">
+                <h3>flex-start</h3>
+            </div>
+            <div class="container align-flex-start">
+                <div class="box box_1">
+                    <p>A</p>
+                </div>
+                <div class="box box_2">
+                    <p>B</p>
+                </div>
+                <div class="box box_3">
+                    <p>C</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="concept">
+                <h3>flex-end</h3>
+            </div>
+            <div class="container align-flex-end">
+                <div class="box box_1">
+                    <p>A</p>
+                </div>
+                <div class="box box_2">
+                    <p>B</p>
+                </div>
+                <div class="box box_3">
+                    <p>C</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="concept">
+                <h3>stretch</h3>
+            </div>
+            <div class="container" style="align-items: stretch;">
+                <div class="box box_1" style="height: auto;">
+                    <p>A</p>
+                </div>
+                <div class="box box_2" style="height: auto;">
+                    <p>B</p>
+                </div>
+                <div class="box box_3" style="height: auto;">
+                    <p>C</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="concept">
+                <h3>baseline</h3>
+            </div>
+            <div class="container" style="align-items: baseline;">
+                <div class="box box_1" style="height: auto;">
+                    <p>A</p>
+                </div>
+                <div class="box box_2" style="height: auto;">
+                    <p>B</p>
+                </div>
+                <div class="box box_3" style="height: auto;">
+                    <p>C</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section style="background-color:rgb(1,0,70) ;">
+        <h2>Justify-content</h2>
+    <div class="row">
+        <div class="concept">
+            <h3>center</h3>
+        </div>
+        <div class="container justify-content-center">
+            <div class="box box_1">
+                <p>A</p>
+            </div>
+            <div class="box box_2">
+                <p>B</p>
+            </div>
+            <div class="box box_3">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="concept">
+            <h3>flex-end</h3>
+        </div>
+        <div class="container justify-content-end">
+            <div class="box box_1">
+                <p>A</p>
+            </div>
+            <div class="box box_2">
+                <p>B</p>
+            </div>
+            <div class="box box_3">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="concept">
+            <h3>flex-start</h3>
+        </div>
+        <div class="container justify-content-start">
+            <div class="box box_1">
+                <p>A</p>
+            </div>
+            <div class="box box_2">
+                <p>B</p>
+            </div>
+            <div class="box box_3">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="concept">
+            <h3>space-between</h3>
+        </div>
+        <div class="container justify-content-between">
+            <div class="box box_1">
+                <p>A</p>
+            </div>
+            <div class="box box_2">
+                <p>B</p>
+            </div>
+            <div class="box box_3">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="concept">
+            <h3>space-evenly</h3>
+        </div>
+        <div class="container justify-content-evenly">
+            <div class="box box_1">
+                <p>A</p>
+            </div>
+            <div class="box box_2">
+                <p>B</p>
+            </div>
+            <div class="box box_3">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="concept">
+            <h3>space-around</h3>
+        </div>
+        <div class="container justify-content-around">
+            <div class="box box_1">
+                <p>A</p>
+            </div>
+            <div class="box box_2">
+                <p>B</p>
+            </div>
+            <div class="box box_3">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section style="background-color:rgb(1, 0, 90) ;">
+        <h2>Order</h2>
+        <div class="row">
+            <div class="concept">
+                <h3>original</h3>
+            </div>
+            <div class="container">
+                <div class="box box_1" style="order: 3;">
+                    <p style="text-align: center;">A<br>order:3</p>
+                </div>
+                <div class="box box_2" style="order: 1;">
+                    <p style="text-align: center;">B<br>order:1</p>
+                </div>
+                <div class="box box_3" style="order: 2;">
+                    <p style="text-align: center;">C<br>order:2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
